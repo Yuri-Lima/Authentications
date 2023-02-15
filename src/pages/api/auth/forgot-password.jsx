@@ -25,7 +25,7 @@ export default async function handler(req, res) {
 		  from: 'greathistorymaker@gmail.com', // Use the email address or domain you verified above
 		  subject: 'Reset Password',
 		  text: 'and easy to do anywhere, even with Node.js',
-		  html: `<a href="${ req.headers.origin + '/auth/reset-password?token=' + token }">Follow this link</a>`,
+		  html: `<Link href="${ req.headers.origin + '/auth/reset-password?token=' + token }">Follow this link</Link>`,
 		};
 		await sgMail.send(msg);
 		res.send('ok');

@@ -98,13 +98,10 @@ export default function DataTable() {
           <NextLink
             href="/"
             passHref
+            style={{ textDecoration: 'none' }}
+            onClick={{formatRows}}
           >
-            <a
-              style={{ textDecoration: 'none' }}
-              onClick={{formatRows}}
-            >
-              go Dashboard
-            </a>																																																																																																																																																																																																																																																																																																																																																																																																															
+            go Dashboard																																																																																																																																																																																																																																																																																																																																																																																																									
           </NextLink>
         </Container>
       </Box>

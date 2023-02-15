@@ -62,12 +62,9 @@ export default function Dashboard({ session }) {
 						<NextLink
 							href="/admin/administrators"
 							passHref
+							style={{ textDecoration: 'none' }}
 						>
-							<a
-								style={{ textDecoration: 'none' }}
-							>
-								Administrators
-							</a>																																																																																																																																																																																																																																																																																																																																																																																																															
+							Administrators																																																																																																																																																																																																																																																																																																																																																																																																											
 						</NextLink>
 					}
 				</Container>
